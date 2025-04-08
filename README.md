@@ -13,14 +13,14 @@
                               +------------------+
                                       ^
                                       |
-      +--------------------+-----------------+----------------+
-      |                    |                 |                |
-      v                    v                 v                v
-+---------------+ +---------------+ +---------------+ +-----------------+
-| <<Interface>> | | <<Interface>> | | <<Interface>> | | <<Interface>>   |
-|   iPodFunc     | | PhoneFunc     | | InternetFunc  | | TouchInterface |
-+---------------+ +---------------+ +---------------+ +-----------------+
-| +tocarMusica() | | +fazerChamada()| | +abrirSafari()| | +tocarTela()   |
-| +verVideos()   | | +enviarSMS()   | | +abrirEmail() | | +usarGestos()  |
-| +navegar()     | | +verContatos() | | +usarMapas()  | | +zoomPinça()   |
-+---------------+ +---------------+ +---------------+ +-----------------+
+            +--------------------+-----------------+----------------+
+            |                    |                 |                |
+            v                    v                 v                v
+      +---------------+ +---------------+ +---------------+ +-----------------+
+      | <<Interface>> | | <<Interface>> | | <<Interface>> | | <<Interface>>   |
+      |   iPodFunc     | | PhoneFunc     | | InternetFunc  | | TouchInterface |
+      +---------------+ +---------------+ +---------------+ +-----------------+
+      | +tocarMusica() | | +fazerChamada()| | +abrirSafari()| | +tocarTela()  |
+      | +verVideos()   | | +enviarSMS()   | | +abrirEmail() | | +usarGestos() |
+      | +navegar()     | | +verContatos() | | +usarMapas()  | | +zoomPinça()  |
+      +---------------+ +---------------+ +---------------+ +-----------------+
